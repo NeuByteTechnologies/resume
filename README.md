@@ -1,6 +1,6 @@
 # NeuByte Technologies — Resume
 
-A modular, data‑driven resume system built with **Jekyll**, **YAML data files**, and **HTML includes**.  
+A modular, data‑driven resume system built with **Jekyll**, **YAML data files**, and **HTML include components**.  
 This repository powers the public-facing resume for **Gordon [Last Name]**, designed for clarity, maintainability, and reuse across the NeuByte portfolio.
 
 ---
@@ -21,6 +21,7 @@ The goal is to maintain a professional, version-controlled resume that can be up
 ## 🧱 Architecture Overview
 
 ### **1. YAML Data Layer (`_data/resume/`)**
+
 All resume content is stored in structured YAML files:
 
 - `work.yml` — Work history  
@@ -28,6 +29,7 @@ All resume content is stored in structured YAML files:
 - `skills.yml` — Skill categories + items  
 - `certifications.yml` — Certifications  
 - `profile.yml` — Header, summary, contact info  
+- `projects.yml` — Optional project highlights  
 
 This ensures clean separation between **content** and **presentation**.
 
@@ -41,13 +43,15 @@ Reusable components render each section:
 - `education-card.html` — Education entries  
 - `skill-category.html` — Skill groups  
 - `certification-card.html` — Certifications  
-- `section-header.html` — Consistent section titles  
+- `header-card.html` — Resume header block  
+- `header.html` — Page header wrapper  
+- `footer.html` — Page footer wrapper  
 
-Each component receives YAML data and outputs a styled, consistent block.
+These components receive YAML data and output consistent, theme-aligned HTML.
 
 ---
 
-### **3. Layout (`_layouts/resume.html`)**
+### **3. Layout (`_layouts/default.html`)**
 
 The resume layout:
 
@@ -55,6 +59,8 @@ The resume layout:
 - Loads each YAML dataset  
 - Iterates through components  
 - Applies NeuByte typography and spacing  
+
+This file is the primary layout used to render the resume.
 
 ---
 
@@ -65,3 +71,4 @@ To run the resume locally:
 ```bash
 bundle install
 bundle exec jekyll serve
+
