@@ -77,41 +77,39 @@ bundle exec jekyll serve
 ## Repository Structure
 
 /
-├── _data/
-│   └── resume/
-│       ├── work.yml
-│       ├── education.yml
-│       ├── skills.yml
-│       ├── certifications.yml
-│       ├── profile.yml
-│       └── projects.yml
-├── _includes/
-│   └── resume/
-│       ├── job-card.html
-│       ├── education-card.html
-│       ├── skill-category.html
-│       ├── certification-card.html
-│       ├── header-card.html
-│       ├── header.html
-│       └── footer.html
-├── _layouts/
-│   └── default.html
-├── assets/
-├── CNAME
-└── about.html
-🛠 Updating the Resume
+├── _data/  
+│   └── resume/  
+│       ├── work.yml  
+│       ├── education.yml  
+│       ├── skills.yml  
+│       ├── certifications.yml  
+│       ├── profile.yml  
+│       └── projects.yml  
+├── _includes/  
+│   └── resume/  
+│       ├── job-card.html  
+│       ├── education-card.html  
+│       ├── skill-category.html  
+│       ├── certification-card.html  
+│       ├── header-card.html  
+│       ├── header.html  
+│       └── footer.html  
+├── _layouts/  
+│   └── default.html  
+├── assets/  
+├── CNAME  
+└── about.html  
+
+##  Updating the Resume
 To update content:
-Edit the YAML files in _data/resume/.
+- Edit the YAML files in _data/resume/.
+- To update layout or styling:
+- Modify the HTML includes or the main layout.
 
-To update layout or styling:
-Modify the HTML includes or the main layout.
-
-To add a new section:
-Create a new YAML file
-
-Create a matching include component
-
-Add a loop in default.html
+## To add a new section:
+- Create a new YAML file
+- Create a matching include component
+- Add a loop in default.html
 
 ## Deployment
 This repository is deployed automatically via GitHub Pages using Jekyll.
