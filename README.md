@@ -5,7 +5,7 @@ This repository powers the public-facing resume for **Gordon [Last Name]**, desi
 
 ---
 
-## 📌 Purpose
+##  Purpose
 
 This repository provides a clean, structured, and easily maintainable resume that:
 
@@ -18,7 +18,7 @@ The goal is to maintain a professional, version-controlled resume that can be up
 
 ---
 
-## 🧱 Architecture Overview
+##  Architecture Overview
 
 ### **1. YAML Data Layer (`_data/resume/`)**
 
@@ -64,7 +64,7 @@ This file is the primary layout used to render the resume.
 
 ---
 
-## 🚀 Local Development
+##  Local Development
 
 To run the resume locally:
 
@@ -72,3 +72,55 @@ To run the resume locally:
 bundle install
 bundle exec jekyll serve
 
+```
+
+## Repository Structure
+
+/
+├── _data/
+│   └── resume/
+│       ├── work.yml
+│       ├── education.yml
+│       ├── skills.yml
+│       ├── certifications.yml
+│       ├── profile.yml
+│       └── projects.yml
+├── _includes/
+│   └── resume/
+│       ├── job-card.html
+│       ├── education-card.html
+│       ├── skill-category.html
+│       ├── certification-card.html
+│       ├── header-card.html
+│       ├── header.html
+│       └── footer.html
+├── _layouts/
+│   └── default.html
+├── assets/
+├── CNAME
+└── about.html
+🛠 Updating the Resume
+To update content:
+Edit the YAML files in _data/resume/.
+
+To update layout or styling:
+Modify the HTML includes or the main layout.
+
+To add a new section:
+Create a new YAML file
+
+Create a matching include component
+
+Add a loop in default.html
+
+## Deployment
+This repository is deployed automatically via GitHub Pages using Jekyll.
+Any push to main triggers a rebuild.
+
+## Contributions
+This repository is maintained internally by NeuByte Technologies.
+External contributions are not currently accepted.
+
+## Contact
+For professional inquiries:
+godon.neuls@gmail.com
