@@ -1,4 +1,4 @@
-theme: minima
+theme: null
 plugins:
   - jekyll-include-cache
 
