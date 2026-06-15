@@ -1,0 +1,13 @@
+theme: minima
+plugins:
+  - jekyll-include-cache
+
+minima:
+  skin: classic
+  include_css:
+    - https://cdn.neubyte.com/assets/css/custom.css
+
+safe: false
+
+include:
+  - _includes/global
