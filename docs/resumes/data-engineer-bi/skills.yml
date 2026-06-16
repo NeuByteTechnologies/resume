@@ -6,7 +6,7 @@
   - UI Flows & System Behavior Analysis
   - Cross-Team Collaboration
   - Production Support & Troubleshooting
-  - "ICD-9 \u2192 ICD-10 Remediation"
+  - "ICD-9 -> ICD-10 Remediation"
   - Lean Six Sigma
 - category: Modernization & Architecture
   skills:
@@ -20,7 +20,7 @@
 - category: Data & SQL
   skills:
   - T-SQL
-  - "SQL Server (2012\u20132019)"
+  - "SQL Server (2012-2019)"
   - BigQuery
   - Data Warehousing (Kimball)
   - Fact & Dimension Modeling
@@ -40,7 +40,7 @@
   skills:
   - Python (OOP)
   - C#
-  - ".NET Framework (1.1\u20134.8)"
+  - ".NET Framework (1.1-4.8)"
   - LINQ
   - Entity Framework
   - JavaScript / jQuery

@@ -1,10 +1,10 @@
 projects:
-- name: "Portfolio Platform \u2013 GitHub Pages + Jekyll"
-  summary: "Designed and built a fully componentized, YAML\u2011driven r\xE9sum\xE9\
+- name: "Portfolio Platform - GitHub Pages + Jekyll"
+  summary: "Designed and built a fully componentized, YAML-driven r\xE9sum\xE9\
     \ and portfolio system demonstrating systems analysis, documentation structure,\
     \ and modern web architecture."
   bullets:
-  - "Created reusable HTML includes and data\u2011driven layouts for consistent rendering."
+  - "Created reusable HTML includes and data-driven layouts for consistent rendering."
   - Developed a structured documentation framework including Use Cases, UI flows,
     and system diagrams.
   - Implemented a scalable theme (NeuByte) supporting modular content and future expansion.

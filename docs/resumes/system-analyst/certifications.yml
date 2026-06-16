@@ -1,3 +1,4 @@
+---
 - name: GH-900 GitHub Foundations
   issuer: Microsoft
   year: 2026
@@ -19,3 +20,4 @@
   year: 2026
   summary: Demonstrates proficiency in object-oriented programming principles using
     Python, enabling automation, data processing, and system integration tasks.
+---

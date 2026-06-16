@@ -1,12 +1,12 @@
-- company: "Melaleuca \u2013 The Wellness Company"
+- company: "Melaleuca - The Wellness Company"
   role: Senior Systems Analyst / Data Systems Engineer
   location: Idaho Falls, Idaho
   start: May 2018
   end: January 2026
   summary: "Supported modernization of enterprise data workflows by analyzing legacy\
-    \ ETL processes, documenting system behavior, and implementing SQL\u2011driven\
+    \ ETL processes, documenting system behavior, and implementing SQL-driven\
     \ transformations. Partnered with marketing, finance, and engineering teams to\
-    \ improve data quality, reporting accuracy, and cross\u2011system integrations."
+    \ improve data quality, reporting accuracy, and cross-system integrations."
   bullets:
   - Analyzed and modernized SSIS workflows supporting credit card recovery, improving
     order retention and recovering ~$20K per month across multiple countries.
@@ -17,12 +17,12 @@
     and campaign performance analysis.
   - Documented and maintained data warehouse ETL processes, including staging, cleansing,
     and dimensional modeling.
-  - "Developed and optimized T\u2011SQL stored procedures and transformations supporting\
+  - "Developed and optimized T-SQL stored procedures and transformations supporting\
     \ fact and dimension tables."
   - Performed data validation, profiling, and query optimization to ensure accuracy,
     reliability, and efficient execution plans.
 - company: Motorola Solutions
-  role: "Staff Engineer I \u2013 Analytics & Systems Integration"
+  role: "Staff Engineer I - Analytics & Systems Integration"
   location: Temecula, CA
   start: March 2018
   end: May 2018
@@ -30,7 +30,7 @@
     following the acquisition of Airbus DS Communications. Ensured continuity of reporting,
     data flows, and system behavior during organizational transition.
   bullets:
-  - "Maintained VESTA Analytics data workflows and reporting components during post\u2011\
+  - "Maintained VESTA Analytics data workflows and reporting components during post-\
     acquisition integration."
   - Analyzed system behavior and data flows to ensure uninterrupted reporting for
     public safety agencies.
@@ -53,10 +53,10 @@
   location: Ontario, California
   start: August 2013
   end: March 2014
-  summary: "Supported ICD\u201110 remediation by analyzing legacy applications, documenting\
+  summary: "Supported ICD-10 remediation by analyzing legacy applications, documenting\
     \ requirements, and ensuring system readiness for regulatory compliance."
   bullets:
-  - "Analyzed applications, databases, and reports to identify ICD\u20119 \u2192 ICD\u2011\
+  - "Analyzed applications, databases, and reports to identify ICD-9 \u2192 ICD-\
     10 upgrade requirements."
   - Documented business processes, system workflows, and functional specifications
     for remediation.
@@ -67,14 +67,14 @@
   start: June 2012
   end: February 2014
   summary: "Delivered custom business and web solutions as a consulting entity, supporting\
-    \ requirements analysis, system design, and data\u2011driven application development."
+    \ requirements analysis, system design, and data-driven application development."
   bullets:
   - Designed and developed a custom CRM system using ASP.NET, SQL Server, and Entity
     Framework.
   - Analyzed business workflows and translated requirements into technical specifications
     and UI components.
 - company: CareFusion / Cardinal Health
-  role: "Business Systems Analyst \u2013 Data Warehousing & Analytics"
+  role: "Business Systems Analyst - Data Warehousing & Analytics"
   location: San Diego, CA
   start: July 2009
   end: June 2012
@@ -88,7 +88,7 @@
   - Supported Operational Excellence initiatives through process analysis and Lean
     Six Sigma practices.
 - company: Cardinal Health
-  role: "Senior Business Systems Analyst \u2013 Data & Process Improvement"
+  role: "Senior Business Systems Analyst - Data & Process Improvement"
   location: San Diego, CA
   start: June 2008
   end: June 2009
@@ -113,7 +113,7 @@
     Financial.
   - Developed intranet and operational applications using ASP, ASP.NET, SQL Server,
     and VB.
-  - "Created reporting solutions using Crystal Reports and SQL\u2011based data extraction."
+  - "Created reporting solutions using Crystal Reports and SQL-based data extraction."
   - Customized CRM workflows and developed support tools for enterprise users.
   - Collaborated with QA, contractors, and business stakeholders to stabilize and
     enhance systems.
