@@ -3,15 +3,13 @@ layout: resume
 title: Resume
 ---
 
-<div class="resume">
-  {% include_relative profile.yml %}
-  {% include_relative resume.yml %}
-  {% include_relative work.yml %}
-  {% include_relative skills.yml %}
-  {% include_relative education.yml %}
-  {% include_relative certification.yml %}
-  {% include_relative projects.yml %}
-</div>
+{% include_relative profile.yml %}
+{% include_relative resume.yml %}
+{% include_relative work.yml %}
+{% include_relative skills.yml %}
+{% include_relative education.yml %}
+{% include_relative certifications.yml %}
+{% include_relative projects.yml %}
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
