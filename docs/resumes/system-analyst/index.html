@@ -1,0 +1,99 @@
+---
+layout: resume
+title: Resume
+---
+
+<!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
+
+<div class="resume-page">
+
+  {% include header-card.html profile=profile %}
+
+  <!-- ============================
+       SUMMARY
+       ============================ -->
+  <section class="resume-summary">
+    <p>{{ resume.summary }}</p>
+  </section>
+
+  <!-- ============================
+       SKILLS
+       ============================ -->
+  <h2>Skills</h2>
+  <div class="skills-container">
+    {% for group in skills %}
+      {% include skill-category.html
+        category=group.category
+        skills=group.skills
+      %}
+    {% endfor %}
+  </div>
+
+  <!-- ============================
+       PROJECTS
+       ============================ -->
+  <section id="projects">
+    <h2>Projects</h2>
+    {% for project in projects %}
+      <div class="project">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.summary }}</p>
+        <ul>
+          {% for bullet in project.bullets %}
+            <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- ============================
+       EXPERIENCE
+       ============================ -->
+  <h2>Experience</h2>
+  <div class="resume-container">
+    {% for job in work %}
+      {% include job-card.html
+        company=job.company
+        role=job.role
+        start=job.start
+        end=job.end
+        location=job.location
+        summary=job.summary
+        bullets=job.bullets
+      %}
+    {% endfor %}
+  </div>
+
+  <!-- ============================
+       EDUCATION
+       ============================ -->
+  <h2>Education</h2>
+  <div class="education-container">
+    {% for edu in education %}
+      {% include education-card.html
+        school=edu.school
+        degree=edu.degree
+        start=edu.start
+        end=edu.end
+        summary=edu.summary
+      %}
+    {% endfor %}
+  </div>
+
+  <!-- ============================
+       CERTIFICATIONS
+       ============================ -->
+  <h2>Certifications</h2>
+  <div class="cert-container">
+    {% for cert in certification %}
+      {% include certification-card.html
+        name=cert.name
+        issuer=cert.issuer
+        year=cert.year
+        summary=cert.summary
+      %}
+    {% endfor %}
+  </div>
+
+</div>
