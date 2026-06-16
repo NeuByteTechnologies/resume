@@ -4,13 +4,13 @@ title: Resume
 ---
 
 <div class="resume">
-  {% include profile.yml %}
-  {% include resume.yml %}
-  {% include work.yml %}
-  {% include skills.yml %}
-  {% include education.yml %}
-  {% include certification.yml %}
-  {% include projects.yml %}
+  {% include_relative profile.yml %}
+  {% include_relative resume.yml %}
+  {% include_relative work.yml %}
+  {% include_relative skills.yml %}
+  {% include_relative education.yml %}
+  {% include_relative certification.yml %}
+  {% include_relative projects.yml %}
 </div>
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
