@@ -1,14 +1,10 @@
 theme: null
-
 plugins:
-  - jekyll-include-cache
-
+- jekyll-include-cache
 minima:
   skin: classic
   include_css:
-    - https://cdn.neubyte.com/assets/css/custom.css
-
+  - https://cdn.neubyte.com/assets/css/custom.css
 safe: false
-
 include:
-  - _includes/global
+- _includes/global
