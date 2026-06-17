@@ -5,11 +5,14 @@ title: Resume
 
 {% include_relative profile.yml %}
 {% include_relative summary.yml %}
+
+<!--
 {% include_relative work.yml %}
 {% include_relative skills.yml %}
 {% include_relative education.yml %}
 {% include_relative certifications.yml %}
 {% include_relative projects.yml %}
+-->
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
@@ -20,13 +23,12 @@ title: Resume
   <!-- ============================
        SUMMARY
        ============================ -->
-  <section class="resume-summary">
-    <p>{{ resume.summary }}</p>
-  </section>
+
+  {% include summary.html resume=resume %}
 
   <!-- ============================
        SKILLS
-       ============================ -->
+       ============================ -
   <h2>Skills</h2>
   <div class="skills-container">
     {% for group in skills %}
@@ -37,9 +39,9 @@ title: Resume
     {% endfor %}
   </div>
 
-  <!-- ============================
+   ============================
        PROJECTS
-       ============================ -->
+       ============================
   <section id="projects">
     <h2>Projects</h2>
     {% for project in projects %}
@@ -55,9 +57,9 @@ title: Resume
     {% endfor %}
   </section>
 
-  <!-- ============================
+   ============================
        EXPERIENCE
-       ============================ -->
+       ============================
   <h2>Experience</h2>
   <div class="resume-container">
     {% for job in work %}
@@ -73,9 +75,9 @@ title: Resume
     {% endfor %}
   </div>
 
-  <!-- ============================
+  ============================
        EDUCATION
-       ============================ -->
+       ============================
   <h2>Education</h2>
   <div class="education-container">
     {% for edu in education %}
@@ -89,9 +91,9 @@ title: Resume
     {% endfor %}
   </div>
 
-  <!-- ============================
+  ============================
        CERTIFICATIONS
-       ============================ -->
+       ============================
   <h2>Certifications</h2>
   <div class="cert-container">
     {% for cert in certification %}
