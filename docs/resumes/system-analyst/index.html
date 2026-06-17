@@ -3,11 +3,11 @@ layout: resume
 title: Resume
 ---
 
-{% capture summary_raw %}{% include_relative summary.yml %}{% endcapture %}
-{% assign resume = summary_raw | from_yaml %}
+{% capture summary_raw %}{% include_relative summary.json %}{% endcapture %}
+{% assign summary = summary_raw | parse_json %}
 
 <pre>RAW: {{ summary_raw }}</pre>
-<pre>PARSED: {{ resume | jsonify }}</pre>
+<pre>PARSED: {{ summary | jsonify }}</pre>
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
@@ -19,8 +19,7 @@ title: Resume
        SUMMARY
        ============================ -->
 
-  {% include summary.html resume=resume %}
-
+{% include summary.html summary=summary %}
   <!-- ============================
        SKILLS
        ============================ -
