@@ -3,36 +3,17 @@ layout: resume
 title: Resume
 ---
 
-{% include_relative profile.yml %}
-
 {% capture summary_raw %}{% include_relative summary.yml %}{% endcapture %}
 {% assign resume = summary_raw | from_yaml %}
 
 <pre>RAW: {{ summary_raw }}</pre>
 <pre>PARSED: {{ resume | jsonify }}</pre>
 
-
-{% capture work_raw %}{% include_relative work.yml %}{% endcapture %}
-{% assign work =work_raw | from_yaml %}
-
-{% capture skills_raw %}{% include_relative skills.yml %}{% endcapture %}
-{% assign skills =skills_raw | from_yaml %}
-
-{% capture education_raw %}{% include_relative education.yml %}{% endcapture %}
-{% assign education =education_raw | from_yaml %}
-
-{% capture certifications_raw %}{% include_relative certifications.yml %}{% endcapture %}
-{% assign certifications =certifications_raw | from_yaml %}
-
-{% capture projects_raw %}{% include_relative projects.yml %}{% endcapture %}
-{% assign projects =projects_raw | from_yaml %}
--->
-
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
 <div class="resume-page">
 
-  {% include header-card.html profile=profile %}
+  <!--{% include header-card.html profile=profile %}-->
 
   <!-- ============================
        SUMMARY
