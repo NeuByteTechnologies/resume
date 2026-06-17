@@ -3,13 +3,17 @@ layout: resume
 title: System Analyst Resume
 ---
 
+{% assign profile = site.data.resumes["system-analyst"].profile %}
+
 {% assign summary = site.data.resumes["system-analyst"].summary %}
+
+{% assign skills = site.data.resumes["system-analyst"].skills %}
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
 <div class="resume-page">
 
-  <!--{% include header-card.html profile=profile %}-->
+  {% include header-card.html profile=profile %}
 
   <!-- ============================
        SUMMARY
@@ -18,7 +22,7 @@ title: System Analyst Resume
 {% include summary.html summary=summary %}
   <!-- ============================
        SKILLS
-       ============================ -
+       ============================ -->
   <h2>Skills</h2>
   <div class="skills-container">
     {% for group in skills %}
@@ -29,7 +33,7 @@ title: System Analyst Resume
     {% endfor %}
   </div>
 
-   ============================
+  <!-- ============================
        PROJECTS
        ============================
   <section id="projects">
