@@ -1,11 +1,7 @@
----
-resume:
-  summary: "Systems Analyst with a strong technical foundation in SQL, data modeling,\
-            and enterprise integration. I specialize in understanding how systems behave,\
-            documenting workflows, and guiding modernization efforts from legacy platforms\
-            to cloud-ready architectures. With experience across financial, medical,\
-            and enterprise domains, I bring a balanced blend of analytical rigor, technical\
-            depth, and cross-functional communication to support scalable, reliable\
-            system solutions."
----
-
+summary: "Data Engineer with a strong foundation in SQL, ETL development, data modeling,
+  and workflow automation. I specialize in building reliable data pipelines,
+  transforming legacy processes into structured, repeatable systems, and
+  supporting analytics teams with clean, well-modeled datasets. My background in
+  systems analysis gives me a unique advantage: I understand how data flows
+  through enterprise systems, how business rules shape transformations, and how
+  to document and operationalize data processes for long-term scalability."
