@@ -8,6 +8,10 @@ title: Resume
 {% capture summary_raw %}{% include_relative summary.yml %}{% endcapture %}
 {% assign resume = summary_raw | from_yaml %}
 
+<pre>RAW: {{ summary_raw }}</pre>
+<pre>PARSED: {{ resume | jsonify }}</pre>
+
+
 {% capture work_raw %}{% include_relative work.yml %}{% endcapture %}
 {% assign work =work_raw | from_yaml %}
 
