@@ -1,4 +1,3 @@
----
 certification:
   - name: GH-900 GitHub Foundations
     issuer: Microsoft
@@ -28,4 +27,3 @@ certification:
     summary: >
       Demonstrates proficiency in object-oriented programming principles using
       Python, enabling automation, data processing, and system integration tasks.
----
