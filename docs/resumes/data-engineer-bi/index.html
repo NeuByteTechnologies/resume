@@ -1,15 +1,29 @@
 ---
 layout: resume
-title: Data Engineer Resume
+title: System Analyst Resume
 ---
 
-{% assign summary = site.data.resumes["data-engineer-bi"].summary %}
+{% assign profile = site.data.resumes["system-analyst"].profile %}
+
+{% assign summary = site.data.resumes["system-analyst"].summary %}
+
+{% assign skills = site.data.resumes["system-analyst"].skills %}
+
+{% assign projects = site.data.resumes["system-analyst"].projects %}
+
+{% assign work = site.data.resumes["system-analyst"].work %}
+
+{% assign education = site.data.resumes["system-analyst"].education %}
+
+{% assign certification = site.data.resumes["system-analyst"].certifications %}
+
+
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
 <div class="resume-page">
 
-  <!--{% include header-card.html profile=profile %}-->
+  {% include header-card.html profile=profile %}
 
   <!-- ============================
        SUMMARY
@@ -18,7 +32,7 @@ title: Data Engineer Resume
 {% include summary.html summary=summary %}
   <!-- ============================
        SKILLS
-       ============================ -
+       ============================ -->
   <h2>Skills</h2>
   <div class="skills-container">
     {% for group in skills %}
@@ -29,9 +43,9 @@ title: Data Engineer Resume
     {% endfor %}
   </div>
 
-   ============================
+  <!-- ============================
        PROJECTS
-       ============================
+       ============================-->
   <section id="projects">
     <h2>Projects</h2>
     {% for project in projects %}
@@ -47,9 +61,9 @@ title: Data Engineer Resume
     {% endfor %}
   </section>
 
-   ============================
+   <!--===========================
        EXPERIENCE
-       ============================
+       ============================-->
   <h2>Experience</h2>
   <div class="resume-container">
     {% for job in work %}
@@ -65,9 +79,9 @@ title: Data Engineer Resume
     {% endfor %}
   </div>
 
-  ============================
+ <!-- ============================
        EDUCATION
-       ============================
+       ============================-->
   <h2>Education</h2>
   <div class="education-container">
     {% for edu in education %}
@@ -81,9 +95,9 @@ title: Data Engineer Resume
     {% endfor %}
   </div>
 
-  ============================
+  <!--============================
        CERTIFICATIONS
-       ============================
+       ============================-->
   <h2>Certifications</h2>
   <div class="cert-container">
     {% for cert in certification %}
