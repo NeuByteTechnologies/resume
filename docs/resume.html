@@ -1,98 +1,10 @@
----
-layout: default
-title: Resume
----
-
-<section class="resume-summary">
-  <p>
-Data Engineer and Business Intelligence professional with a strong foundation in SQL,
-data modeling, and enterprise data workflows. I specialize in analyzing and modernizing legacy
- ETL systems, improving data quality, and designing cloud‑ready data solutions across financial,
-  medical, and enterprise environments. With deep experience in SSIS, dimensional modeling,
-  reporting platforms, and cross‑system integrations, I bring a blend of analytical rigor and systems
-  thinking to support scalable, reliable, and insight‑driven data platforms.
-  </p>
-</section>
-
-<!-- ============================
-     SKILLS
-     ============================ -->
-<h2>Skills</h2>
-<div class="skills-container">
-  {% for group in site.data.skills %}
-    {% include skill-category.html
-      category=group.category
-      skills=group.skills
-    %}
-  {% endfor %}
-</div>
-
-<!--============================
-Projects
-=============================-->
-
-<section id="projects">
-  <h2>Projects</h2>
-  {% for project in site.data.projects %}
-    <div class="project">
-      <h3>{{ project.name }}</h3>
-      <p>{{ project.summary }}</p>
-      <ul>
-        {% for bullet in project.bullets %}
-          <li>{{ bullet }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endfor %}
-</section>
-
-
-<!-- ============================
-     EXPERIENCE
-     ============================ -->
-<h2>Experience</h2>
-<div class="resume-container">
-  {% for job in site.data.work %}
-    {% include job-card.html
-      company=job.company
-      role=job.role
-      start=job.start
-      end=job.end
-      location=job.location
-      summary=job.summary
-      bullets=job.bullets
-    %}
-  {% endfor %}
-</div>
-
-<!-- ============================
-     EDUCATION
-     ============================ -->
-<h2>Education</h2>
-<div class="education-container">
-  {% for edu in site.data.education %}
-    {% include education-card.html
-      school=edu.school
-      degree=edu.degree
-      start=edu.start
-      end=edu.end
-      summary=edu.summary
-    %}
-  {% endfor %}
-</div>
-
-<!-- ============================
-     CERTIFICATIONS
-     ============================ -->
-<h2>Certifications</h2>
-<div class="cert-container">
-  {% for cert in site.data.certifications %}
-    {% include certification-card.html
-      name=cert.name
-      issuer=cert.issuer
-      year=cert.year
-      summary=cert.summary
-    %}
-  {% endfor %}
-</div>
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=https://resume.neubyte.com/resumes/">
+  </head>
+  <body>
+    <p>If you are not redirected, <a href="https://resume.neubyte.com/resumes/data-engineer-bi/">Data Engineer BI</a>.</p>
+       <p> <a href="https://resume.neubyte.com/resumes/system-analyst/">System Analyst</a>.</p>
+  </body>
+</html>
