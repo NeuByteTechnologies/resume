@@ -3,11 +3,7 @@ layout: resume
 title: Resume
 ---
 
-{% capture summary_raw %}{% include_relative summary.json %}{% endcapture %}
-{% assign summary = summary_raw | parse_json %}
-
-<pre>RAW: {{ summary_raw }}</pre>
-<pre>PARSED: {{ summary | jsonify }}</pre>
+{% assign summary = site.data.resumes[page.resume_key].summary %}
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
