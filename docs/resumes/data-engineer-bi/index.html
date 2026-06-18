@@ -5,28 +5,24 @@ title: Data Engineer BI Resume
 
 {% assign resume = site.data.resumes["data-engineer-bi"].resume.resume %}
 
-<pre>
-    {{resume}}
-</pre>
-
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
 <div class="resume-page">
 
-  {% include header-card.html profile=resume.profile %}
+  {% include header-card.html profile=profile %}
 
   <!-- ============================
        SUMMARY
        ============================ -->
 
-{% include summary.html summary=resume.summary %}
+{% include summary.html summary=summary %}
   <!-- ============================
        SKILLS
        ============================ -->
   <h2>Skills</h2>
   <div class="skills-container">
-    {% for group in resume.skills %}
+    {% for group in skills %}
       {% include skill-category.html
         category=group.category
         skills=group.skills
@@ -39,7 +35,7 @@ title: Data Engineer BI Resume
        ============================-->
   <section id="projects">
     <h2>Projects</h2>
-    {% for project in resume.projects %}
+    {% for project in projects %}
       <div class="project">
         <h3>{{ project.name }}</h3>
         <p>{{ project.summary }}</p>
@@ -57,7 +53,7 @@ title: Data Engineer BI Resume
        ============================-->
   <h2>Experience</h2>
   <div class="resume-container">
-    {% for job in resume.work %}
+    {% for job in work %}
       {% include job-card.html
         company=job.company
         role=job.role
@@ -75,7 +71,7 @@ title: Data Engineer BI Resume
        ============================-->
   <h2>Education</h2>
   <div class="education-container">
-    {% for edu in resume.education %}
+    {% for edu in education %}
       {% include education-card.html
         school=edu.school
         degree=edu.degree
@@ -91,7 +87,7 @@ title: Data Engineer BI Resume
        ============================-->
   <h2>Certifications</h2>
   <div class="cert-container">
-    {% for cert in resume.certification %}
+    {% for cert in certification %}
       {% include certification-card.html
         name=cert.name
         issuer=cert.issuer
