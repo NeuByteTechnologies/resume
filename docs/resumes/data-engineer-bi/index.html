@@ -9,17 +9,28 @@ title: Data Engineer BI Resume
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
 <div class="resume-page">
-    <pre>{{resume.profile.name}}</pre>
 
-  {% include header-card.html profile = resume.profile %}
+<header class="resume-header">
+  <h1 class="resume-name">{{ resume.profile.name }}</h1>
+  <h2 class="resume-title">{{resume.profile.title }}</h2>
+
+  <div class="resume-contact">
+    <span>{{ resume.profile.location }}</span>
+    <span>{{ resume.profile.phone }}</span>
+    <span><a href="mailto:{{ site.data.profile.email }}">{{ resume.profile.email }}</a></span>
+    <span><a href="{{ site.data.profile.linkedin}}" target="_blank">{{ resume.profile.linkedin }}</a></span>
+    <span><a href="{{ site.data.profile.website }}" target="_blank">{{ resume.profile.website }}</a></span>
+  </div>
+</header>
 
   <!-- ============================
        SUMMARY
        ============================ -->
 
-    <pre>{{resume.summary.summary}}</pre>
+  <section class="resume-summary">
+    <p>{{ resume.summary.summary }}</p>
+  </section>
 
-{% include summary.html summary=resume.summary.summary %}
   <!-- ============================
        SKILLS
        ============================ -->
