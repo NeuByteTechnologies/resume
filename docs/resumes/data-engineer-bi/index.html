@@ -3,39 +3,26 @@ layout: resume
 title: System Analyst Resume
 ---
 
-{% assign profile = site.data.resumes["data-engineer-bi"].resume.profile %}
-
-{% assign summary = site.data.resumes["data-engineer-bi"].resume.summary %}
-
-{% assign skills = site.data.resumes["data-engineer-bi"].resume.skills %}
-
-{% assign projects = site.data.resumes["data-engineer-bi"].resume.projects %}
-
-{% assign work = site.data.resumes["data-engineer-bi"].resume.work %}
-
-{% assign education = site.data.resumes["data-engineer-bi"].resume.education %}
-
-{% assign certification = site.data.resumes["data-engineer-bi"].resume.certifications %}
-
+{% assign resume = site.data.resumes["data-engineer-bi"].resume %}
 
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
 <div class="resume-page">
 
-  {% include header-card.html profile=profile %}
+  {% include header-card.html profile=resume.profile %}
 
   <!-- ============================
        SUMMARY
        ============================ -->
 
-{% include summary.html summary=summary %}
+{% include summary.html summary=resume.summary %}
   <!-- ============================
        SKILLS
        ============================ -->
   <h2>Skills</h2>
   <div class="skills-container">
-    {% for group in skills %}
+    {% for group in resume.skills %}
       {% include skill-category.html
         category=group.category
         skills=group.skills
@@ -48,7 +35,7 @@ title: System Analyst Resume
        ============================-->
   <section id="projects">
     <h2>Projects</h2>
-    {% for project in projects %}
+    {% for project in resume.projects %}
       <div class="project">
         <h3>{{ project.name }}</h3>
         <p>{{ project.summary }}</p>
@@ -66,7 +53,7 @@ title: System Analyst Resume
        ============================-->
   <h2>Experience</h2>
   <div class="resume-container">
-    {% for job in work %}
+    {% for job in resume.work %}
       {% include job-card.html
         company=job.company
         role=job.role
@@ -84,7 +71,7 @@ title: System Analyst Resume
        ============================-->
   <h2>Education</h2>
   <div class="education-container">
-    {% for edu in education %}
+    {% for edu in resume.education %}
       {% include education-card.html
         school=edu.school
         degree=edu.degree
@@ -100,7 +87,7 @@ title: System Analyst Resume
        ============================-->
   <h2>Certifications</h2>
   <div class="cert-container">
-    {% for cert in certification %}
+    {% for cert in resume.certification %}
       {% include certification-card.html
         name=cert.name
         issuer=cert.issuer
