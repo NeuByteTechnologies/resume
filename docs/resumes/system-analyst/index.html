@@ -1,41 +1,42 @@
 ---
 layout: resume
-title: System Analyst Resume
+title: Data Engineer BI Resume
 ---
 
-{% assign profile = site.data.resumes["system-analyst"].resume.profile %}
-
-{% assign summary = site.data.resumes["system-analyst"].resume.summary %}
-
-{% assign skills = site.data.resumes["system-analyst"].resume.skills %}
-
-{% assign projects = site.data.resumes["system-analyst"].resume.projects %}
-
-{% assign work = site.data.resumes["system-analyst"].resume.work %}
-
-{% assign education = site.data.resumes["system-analyst"].resume.education %}
-
-{% assign certification = site.data.resumes["system-analyst"].resume.certifications %}
-
+{% assign resume = site.data.resumes["system-analyst"].resume.resume %}
 
 
 <!-- Build: {{ site.github.build_revision }} | {{ site.time | date: "%Y-%m-%d %H:%M:%S" }} -->
 
 <div class="resume-page">
 
-  {% include header-card.html profile=profile %}
+<header class="resume-header">
+  <h1 class="resume-name">{{ resume.profile.name }}</h1>
+  <h2 class="resume-title">{{resume.profile.title }}</h2>
+
+  <div class="resume-contact">
+    <span>{{ resume.profile.location }}</span>
+    <span>{{ resume.profile.phone }}</span>
+    <span><a href="mailto:{{ site.data.profile.email }}">{{ resume.profile.email }}</a></span>
+    <span><a href="{{ site.data.profile.linkedin}}" target="_blank">{{ resume.profile.linkedin }}</a></span>
+    <span><a href="{{ site.data.profile.website }}" target="_blank">{{ resume.profile.website }}</a></span>
+  </div>
+</header>
 
   <!-- ============================
        SUMMARY
        ============================ -->
 
-{% include summary.html summary=summary %}
+  <section class="resume-summary">
+    <p>{{ resume.summary.summary }}</p>
+  </section>
+
   <!-- ============================
        SKILLS
        ============================ -->
   <h2>Skills</h2>
   <div class="skills-container">
-    {% for group in skills %}
+    {% for group in resume.skills %}
       {% include skill-category.html
         category=group.category
         skills=group.skills
@@ -48,7 +49,7 @@ title: System Analyst Resume
        ============================-->
   <section id="projects">
     <h2>Projects</h2>
-    {% for project in projects %}
+    {% for project in resume.projects %}
       <div class="project">
         <h3>{{ project.name }}</h3>
         <p>{{ project.summary }}</p>
@@ -66,7 +67,7 @@ title: System Analyst Resume
        ============================-->
   <h2>Experience</h2>
   <div class="resume-container">
-    {% for job in work %}
+    {% for job in resume.work %}
       {% include job-card.html
         company=job.company
         role=job.role
@@ -84,7 +85,7 @@ title: System Analyst Resume
        ============================-->
   <h2>Education</h2>
   <div class="education-container">
-    {% for edu in education %}
+    {% for edu in resume.education %}
       {% include education-card.html
         school=edu.school
         degree=edu.degree
@@ -100,7 +101,7 @@ title: System Analyst Resume
        ============================-->
   <h2>Certifications</h2>
   <div class="cert-container">
-    {% for cert in certification %}
+    {% for cert in resume.certifications %}
       {% include certification-card.html
         name=cert.name
         issuer=cert.issuer
