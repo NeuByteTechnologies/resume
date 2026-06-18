@@ -1,0 +1,258 @@
+resume:
+
+  profile:
+    name: Gordon Neuls
+    title: Data Warehouse Engineer / Business Intelligence Engineer
+    location: Ammon, Idaho
+    phone: "208-709-1866"
+    email: gordon.neuls@gmail.com
+    linkedin: https://www.linkedin.com/in/gordonneuls
+    website: https://portfolio.neubyte.com
+
+  summary:
+    summary: >
+      Data Warehouse Engineer and Business Intelligence professional with deep experience
+      in SQL Server, SSIS, SSAS, ETL pipelines, and Kimball data warehousing. Skilled in
+      designing, developing, and optimizing data workflows that support enterprise analytics,
+      reporting, and operational decision-making. Adept at transforming business requirements
+      into scalable data solutions, improving data quality, and modernizing legacy systems.
+      Strong communicator with experience supporting executives, technical teams, and
+      cross‑functional stakeholders across healthcare, finance, and enterprise environments.
+
+  skills:
+    - category: Business Intelligence & Analytics
+      skills:
+        - Data Warehousing (Kimball Methodology)
+        - SQL Server & T-SQL
+        - ETL / SSIS / SSAS
+        - Azure Data Fundamentals
+        - Crystal Reports / Business Objects / Web Intelligence
+        - Executive & Operational Reporting
+        - Data Modeling & Dimensional Design
+
+    - category: Data Engineering & Development
+      skills:
+        - SQL Server Management Studio
+        - Visual Studio / VS Code
+        - C# / .NET
+        - Python
+        - BigQuery
+        - JSON / XML
+        - Git / GitHub / Azure DevOps
+
+    - category: Business Analysis & Delivery
+      skills:
+        - Requirements Elicitation & Documentation
+        - Stakeholder Facilitation
+        - Business Process Analysis & Improvement
+        - Privacy Standards (PCI DSS, PII, GDPR, HIPAA)
+        - UAT Planning & Support
+        - SDLC Documentation & Governance
+        - Agile / Scrum
+        - Lean Six Sigma
+
+    - category: Teaching & Mentoring
+      skills:
+        - Technical Mentoring (ETL, SSIS, .NET)
+        - Training and onboarding new team members
+        - Amateur Radio Licensing Instruction
+
+  work:
+    - company: Melaleuca - The Wellness Company
+      role: Software Engineer II / Data Warehouse Engineer
+      location: Idaho Falls, Idaho
+      start: "May 2018"
+      end: "January 2026"
+      summary: >
+        Designed, developed, and maintained enterprise ETL pipelines, data warehouse
+        processes, and analytics integrations supporting marketing, finance, and
+        operational reporting. Improved data quality, campaign targeting, and
+        cross‑system integrations through SQL, SSIS, and BigQuery.
+      bullets:
+        - Developed SSIS packages with C# scripting components to recover ~$20K per month
+          in previously declined credit card orders across multiple countries.
+        - Built and maintained SSIS pipelines sending customer and order data to Salesforce
+          for email and SMS marketing campaigns, improving retention and engagement.
+        - Updated BigQuery ingestion processes for Google Analytics data to support
+          segmentation and targeted communications.
+        - Maintained data warehouse staging and transformation processes using SSIS and
+          SQL Agent Jobs.
+        - Developed T-SQL stored procedures for cleansing, transforming, and loading
+          fact and dimension tables.
+        - Performed query optimization using execution plans, indexing strategies, and
+          data validation to ensure reliable and efficient ETL performance.
+
+    - company: Motorola Solutions / Airbus DS Communications
+      role: Software Designer
+      location: Temecula, California
+      start: "February 2014"
+      end: "May 2018"
+      summary: >
+        Supported analytics and ETL components for 911 call center MIS applications,
+        modernizing legacy components and improving reporting reliability.
+      bullets:
+        - Upgraded VESTA Analytics Web Application and Application Manager from
+          Infragistics v10 to v14.1 and .NET Framework 4.0 to 4.5.
+        - Enhanced custom SSIS Data Flow Task components for XML-based error logging
+          and ETL diagnostics.
+        - Supported C# Windows Services orchestrating SSIS package execution.
+        - Developed SSAS cubes using AMO and XMLA, including perspectives, measures,
+          and calculations.
+
+    - company: NAMM California
+      role: Business Systems Analyst
+      location: Ontario, California
+      start: "August 2013"
+      end: "March 2014"
+      summary: >
+        Supported ICD‑10 remediation efforts through application analysis, requirements
+        documentation, and production support.
+      bullets:
+        - Analyzed applications and databases to identify ICD‑9 to ICD‑10 remediation needs.
+        - Documented business processes, system workflows, and functional specifications.
+        - Provided production support for VB.NET applications and Crystal Reports.
+
+    - company: CU Direct
+      role: Software Developer
+      location: Ontario, California
+      start: "April 2013"
+      end: "August 2013"
+      summary: >
+        Developed MVC applications and automated code generation using T4 templates.
+      bullets:
+        - Built .NET MVC applications using jQuery, JSON, Handlebars, Kendo UI, and SQL Server.
+        - Created T4 templates for generating localization and enumeration classes.
+
+    - company: SAIC
+      role: Software Engineer
+      location: San Diego, California
+      start: "August 2012"
+      end: "April 2013"
+      summary: >
+        Supported SharePoint governance, analytics documentation, and Tier 2 operations.
+      bullets:
+        - Authored governance documentation for SharePoint 2010 and Project Server 2010.
+        - Configured TFS Work Item Templates.
+        - Provided Tier 2 support for SharePoint help desk operations.
+
+    - company: NeuByte Technologies
+      role: Principal Software Engineer (Consultant)
+      location: Hemet, California
+      start: "July 2012"
+      end: "May 2018"
+      summary: >
+        Delivered custom CRM and web solutions using .NET technologies.
+      bullets:
+        - Designed and developed CRM applications using ASP.NET MVC, Entity Framework,
+          jQuery, JSON, and LINQ.
+        - Implemented Telerik Kendo UI components for enhanced UI experiences.
+
+    - company: CareFusion / Cardinal Health
+      role: Business Metrics / Analytics Consultant
+      location: San Diego, California
+      start: "July 2009"
+      end: "June 2012"
+      summary: >
+        Supported enterprise analytics, data warehousing, and reporting initiatives using
+        Kimball methodologies and SSIS.
+      bullets:
+        - Designed and developed star schema data warehouses and data marts.
+        - Built SSIS ETL pipelines integrating diverse data sources.
+        - Authored SDLC documentation and requirements artifacts.
+        - Managed cross‑functional analytics initiatives delivering measurable business value.
+
+    - company: Cardinal Health
+      role: Senior Analyst, Business Metrics / Analytics
+      location: San Diego, California
+      start: "June 2008"
+      end: "June 2009"
+      summary: >
+        Developed data warehouse components, ETL workflows, and reporting solutions.
+      bullets:
+        - Built SQL Server 2008 star schema data warehouses and data marts.
+        - Developed SSIS packages and Crystal Reports.
+        - Supported development governance using SharePoint, Visual Studio, and VSS.
+
+    - company: Early Career Software Engineer / Web Developer
+      role: Various Roles (Web Developer → Senior Programmer/Analyst)
+      location: Southern California
+      start: "August 1997"
+      end: "May 2006"
+      summary: >
+        Progressed through increasingly responsible roles across multiple organizations,
+        supporting enterprise applications, reporting systems, and early web development.
+        Contributed to modernization of intranet applications, CRM systems, and reporting
+        workflows using ASP.NET, SQL Server, VB.NET, and early JavaScript frameworks.
+      bullets:
+        - Developed operational and intranet applications using ASP, ASP.NET, SQL Server, and VB.NET.
+        - Created reporting solutions using Crystal Reports and SQL-based data extraction.
+        - Supported CRM workflows and developed internal tools for enterprise users.
+        - Collaborated with QA, contractors, and business stakeholders to stabilize and enhance systems.
+
+  projects:
+    - name: Data Warehouse & ETL Modernization
+      summary: >
+        Designed and enhanced enterprise ETL pipelines, data warehouse structures, and
+        reporting workflows using SSIS, SQL Server, and Kimball methodologies.
+      bullets:
+        - Built SSIS packages integrating multiple source systems.
+        - Developed dimensional models supporting analytics and reporting.
+        - Improved data quality and operational reliability through validation and optimization.
+
+    - name: Analytics Platform Enhancements
+      summary: >
+        Upgraded and modernized analytics components for public safety and enterprise
+        reporting systems.
+      bullets:
+        - Upgraded legacy .NET and Infragistics components.
+        - Enhanced SSIS error logging and ETL diagnostics.
+        - Developed SSAS cubes and analytics structures.
+
+  education:
+    - school: National University
+      degree: MS, Organizational Leadership
+      start: "July 2003"
+      end: "October 2006"
+      summary: >
+        Graduate studies focused on leadership, organizational behavior, and strategic management.
+
+    - school: National University
+      degree: BS, Computer Science
+      start: "January 2000"
+      end: "July 2003"
+      summary: >
+        Bachelor's program emphasizing software engineering, algorithms, and systems development.
+
+    - school: Colorado Institute of Art
+      degree: AA, Visual Communications
+      start: "September 1986"
+      end: "June 1989"
+      summary: >
+        Associate program focused on design, visual communication, and creative production.
+
+  certifications:
+    - name: GH-900 GitHub Foundations
+      issuer: Microsoft
+      year: "2026"
+      summary: >
+        Demonstrates proficiency with GitHub repositories, branching strategies, workflow
+        automation, and collaborative development practices.
+
+    - name: DP-900 Azure Data Fundamentals
+      issuer: Microsoft
+      year: "2026"
+      summary: >
+        Validates understanding of core data concepts, relational and non-relational models,
+        and cloud-based analytics workloads.
+
+    - name: AI-900 Azure AI Fundamentals
+      issuer: Microsoft
+      year: "2026"
+      summary: >
+        Covers foundational concepts in AI, machine learning, and Azure AI services.
+
+    - name: Programming with Python Professional Certificate
+      issuer: Python Institute / OpenEDG
+      year: "2026"
+      summary: >
+        Demonstrates proficiency in Python programming and automation techniques.
