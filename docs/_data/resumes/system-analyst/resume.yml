@@ -185,13 +185,13 @@ resume:
         - Analyzed business workflows and translated requirements into technical
           specifications and UI components.
 
-    - company: CareFusion / Cardinal Health
+    - company: CareFusion
       role: "Business Systems Analyst - Data Warehousing & Analytics"
       location: San Diego, CA
       start: "July 2009"
       end: "June 2012"
       summary: >
-        Supported enterprise data wareferencing initiatives using Kimball
+        Supported enterprise data warehouse initiatives using Kimball
         methodologies, Lean Six Sigma, and structured requirements analysis.
         Contributed to modernization of reporting and analytics platforms across
         operational and financial domains.
