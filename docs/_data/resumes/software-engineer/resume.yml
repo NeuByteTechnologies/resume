@@ -1,0 +1,198 @@
+resume:
+
+  profile:
+    name: Gordon Neuls
+    title: Software Engineer / .NET Developer / Data Pipeline Engineer
+    location: Ammon, Idaho
+    phone: "208-709-1866"
+    email: gordon.neuls@gmail.com
+    linkedin: https://www.linkedin.com/in/gordonneuls
+    website: https://portfolio.neubyte.com
+    clearance: "Eligible for DOE Background Investigation"
+
+  summary:
+    summary: >
+      Software Engineer with extensive experience developing mission-critical systems in
+      regulated environments (HIPAA, PCI DSS, GDPR, FDA). Strong background in C#/.NET,
+      SQL Server optimization, ETL pipelines, automated testing, and structured debugging.
+      Skilled in modernizing legacy applications, enhancing SSIS/SSAS components, and
+      building reliable data-driven services for public safety, healthcare, and enterprise
+      analytics environments. Adept at Agile/Scrum delivery, SDLC documentation, and
+      cross-functional collaboration. Proven reliability in high-stakes operational systems.
+
+  skills:
+
+    - category: Core Engineering Skills
+      skills:
+        - C# / .NET Framework / .NET Core
+        - ASP.NET MVC / Web API
+        - Windows Services (C#)
+        - Object-Oriented Programming (OOP)
+        - LINQ / Entity Framework
+        - Python (Automation & Testing)
+        - JavaScript / jQuery
+        - JSON / XML Processing
+
+    - category: Data Pipelines & ETL
+      skills:
+        - SSIS (Custom Script Components)
+        - SSAS (Cubes, Perspectives, Measures)
+        - SQL Server (2012–2019)
+        - T-SQL Development & Optimization
+        - Stored Procedures & Functions
+        - ETL Pipeline Design & Orchestration
+        - BigQuery Ingestion & Processing
+        - Salesforce / Google Analytics Integrations
+
+    - category: Testing & Quality Engineering
+      skills:
+        - QA-Driven Development
+        - Automated Testing (pytest, C# test frameworks)
+        - Integration Testing
+        - System Test Procedures
+        - Requirements Traceability
+        - SDLC Documentation
+        - Root Cause Analysis & Structured Debugging
+
+    - category: Modernization & Architecture
+      skills:
+        - Legacy System Modernization
+        - UI Modernization (Infragistics)
+        - Performance Optimization
+        - Error Logging & Diagnostics (XML-based)
+        - Data Pipeline Reliability Engineering
+        - Cloud Concepts (Azure Data Fundamentals)
+
+    - category: Compliance & Regulated Environments
+      skills:
+        - HIPAA
+        - PCI DSS
+        - PII / GDPR
+        - FDA Software Practices
+        - Public Safety Operational Requirements
+
+    - category: DevOps & Tools
+      skills:
+        - Git / GitHub / Azure DevOps
+        - CI/CD Pipelines
+        - Visual Studio / VS Code
+        - SQL Server Management Studio
+        - TFS Work Item Templates
+        - VMWare Workstation Pro / Hyper-V
+
+    - category: Collaboration & Leadership
+      skills:
+        - Agile / Scrum
+        - Cross-Functional Team Collaboration
+        - Technical Mentoring (SSIS, .NET, ETL)
+        - Documentation & Knowledge Transfer
+
+  work:
+
+    - company: Melaleuca - The Wellness Company
+      role: Software Engineer II
+      location: Idaho Falls, Idaho
+      start: "May 2018"
+      end: "January 2026"
+      summary: >
+        Developed and optimized C#/.NET components and SQL-driven ETL pipelines supporting
+        mission-critical operational systems. Improved data reliability, campaign targeting,
+        and cross-system integrations while ensuring compliance with regulated data standards.
+      bullets:
+        - Developed SSIS packages with C# script components recovering ~$20K/month in declined
+          international orders.
+        - Built ETL pipelines integrating Salesforce, Google Analytics, and internal systems
+          for targeted communications and retention.
+        - Designed and optimized SQL Server stored procedures for ELT transformations supporting
+          fact/dimension loads.
+        - Performed query tuning using execution plans, indexing strategies, temp table analysis,
+          and row-count validation.
+        - Ensured compliance with PCI DSS, PII, and GDPR requirements for customer and payment data.
+        - Delivered features in Agile sprints with lightweight, operationally-focused documentation.
+
+    - company: Motorola Solutions / Airbus DS Communications
+      role: Software Designer I
+      location: Temecula, California
+      start: "February 2014"
+      end: "May 2018"
+      summary: >
+        Supported development and modernization of 911 call center MIS analytics applications.
+        Enhanced ETL reliability, modernized UI components, and delivered structured testing
+        for public-safety operational environments.
+      bullets:
+        - Modernized VESTA Analytics application (Infragistics 10 → 14.1, .NET 4.0 → 4.5).
+        - Enhanced custom SSIS Data Flow Tasks for XML-based error logging and diagnostics.
+        - Supported C# Windows Services orchestrating SSIS package execution for mission-critical ETL.
+        - Developed SSAS cubes using AMO/XMLA, including perspectives, measures, and calculations.
+        - Delivered UI enhancements, production support, and Tier 2 troubleshooting.
+
+    - company: Additional Experience
+      role: Software Engineer / Data Engineer (Summary)
+      location: Southern California
+      start: "June 2008"
+      end: "February 2014"
+      summary: >
+        Supported enterprise analytics, ETL pipelines, and reporting systems across healthcare,
+        finance, and enterprise environments.
+      bullets:
+        - Requirements analysis for federally mandated ICD-9 → ICD-10 transition.
+        - Designed Kimball-based data marts and SSIS ETL pipelines integrating multiple systems.
+        - Delivered analytics initiatives generating $250K+ annual cost savings.
+        - Hands-on development with ASP.NET MVC, VB.NET, Entity Framework, SQL Server, and reporting tools.
+        - Mentored junior developers in .NET, SSIS, ETL, and data warehousing.
+
+    - company: Early Career Software Engineer / Web Developer
+      role: Various Roles (Web Developer → Senior Programmer/Analyst)
+      location: Southern California
+      start: "August 1997"
+      end: "May 2006"
+      summary: >
+        Progressed through increasingly responsible roles supporting enterprise applications,
+        reporting systems, and early web development.
+      bullets:
+        - Developed operational and intranet applications using ASP, ASP.NET, SQL Server, and VB.NET.
+        - Created reporting solutions using Crystal Reports and SQL-based extraction.
+        - Supported CRM workflows and developed internal tools for enterprise users.
+        - Collaborated with QA, contractors, and business stakeholders to stabilize systems.
+
+  education:
+    - school: National University
+      degree: MS, Organizational Leadership
+      start: "July 2003"
+      end: "October 2006"
+
+    - school: National University
+      degree: BS, Computer Science
+      start: "January 2000"
+      end: "July 2003"
+
+    - school: Colorado Institute of Art
+      degree: AA, Visual Communications
+      start: "September 1986"
+      end: "June 1989"
+
+  certifications:
+    - name: PL-300 Power BI Data Analyst Associate
+      issuer: Microsoft
+      year: "2026"
+
+    - name: DP-900 Azure Data Fundamentals
+      issuer: Microsoft
+      year: "2026"
+
+    - name: AI-900 Azure AI Fundamentals
+      issuer: Microsoft
+      year: "2026"
+
+    - name: GH-900  GitHub Foundations
+      issuer: Microsoft
+      year: "2026"
+
+    - name: Programming with Python Professional Certificate
+      issuer: Python Institute / OpenEDG
+      year: "2026"
+
+  additional:
+    - Experienced in regulated, drug-free workplace environments
+    - Eligible for DOE background investigation and classified matter access
+    - Taught Amateur Radio licensing courses to 300+ students
