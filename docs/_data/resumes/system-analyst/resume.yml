@@ -2,7 +2,7 @@ resume:
 
   profile:
     name: Gordon Neuls
-    title: Senior Systems Analyst / Business Systems Analyst
+    title: Senior Business Systems Analyst / Senior Systems Analyst
     location: Ammon, Idaho
     phone: "208-709-1866"
     email: gordon.neuls@gmail.com
@@ -11,24 +11,28 @@ resume:
 
   summary:
     summary: >
-      Systems Analyst with a strong technical foundation in SQL, data modeling,
-      and enterprise integration. I specialize in understanding how systems behave,
-      documenting workflows, and guiding modernization efforts from legacy platforms
-      to cloud-ready architectures. With experience across financial, medical,
-      and enterprise domains, I bring a balanced blend of analytical rigor, technical
-      depth, and cross-functional communication to support scalable, reliable
-      system solutions.
+      Senior Business Systems Analyst with deep experience analyzing system behavior,
+      documenting workflows, and defining modernization requirements for enterprise
+      platforms. Strong foundation in SQL, data modeling, and integration patterns.
+      Skilled at translating complex processes into clear requirements, user stories,
+      acceptance criteria, and functional specifications. Adept at cross-team
+      collaboration, legacy system remediation, and guiding organizations toward
+      cloud-ready architectures across financial, medical, and enterprise domains.
 
   skills:
+
     - category: Business & Systems Analysis
       skills:
         - Requirements Gathering & Analysis
+        - User Stories & Acceptance Criteria
+        - Functional & Non-Functional Requirements
         - Use Cases & Functional Specifications
-        - Process Documentation & Workflow Modeling
+        - Process Documentation & Workflow Modeling (BPMN)
         - UI Flows & System Behavior Analysis
+        - Gap Analysis & Root Cause Analysis
         - Cross-Team Collaboration
         - Production Support & Troubleshooting
-        - "ICD-9 -> ICD-10 Remediation"
+        - ICD-9 -> ICD-10 Remediation
         - Lean Six Sigma
 
     - category: Modernization & Architecture
@@ -41,10 +45,22 @@ resume:
         - Cloud-Ready Design (Azure/AWS Patterns)
         - Reporting & Platform Modernization
 
+    - category: Business Analysis Deliverables
+      skills:
+        - Requirements Traceability
+        - Use Case Modeling
+        - Activity Diagrams
+        - Functional Specifications
+        - UAT Planning & Support
+        - Test Plans & Acceptance Testing
+        - Stakeholder Management
+        - Backlog Grooming / Refinement
+        - Agile/Scrum Ceremonies
+
     - category: Data & SQL
       skills:
         - T-SQL
-        - "SQL Server (2012-2019)"
+        - SQL Server (2012–2019)
         - BigQuery
         - Data Warehousing (Kimball)
         - Fact & Dimension Modeling
@@ -66,7 +82,7 @@ resume:
       skills:
         - Python (OOP)
         - C#
-        - ".NET Framework (1.1-4.8)"
+        - .NET Framework (1.1–4.8)
         - LINQ
         - Entity Framework
         - JavaScript / jQuery
@@ -96,47 +112,49 @@ resume:
         - GitHub
 
   work:
+
     - company: "Melaleuca - The Wellness Company"
-      role: Senior Systems Analyst / Data Systems Engineer
+      role: Senior Business Systems Analyst / Data Systems Analyst
       location: Idaho Falls, Idaho
       start: "May 2018"
       end: "January 2026"
       summary: >
-        Supported modernization of enterprise data workflows by analyzing legacy
-        ETL processes, documenting system behavior, and implementing SQL-driven
-        transformations. Partnered with marketing, finance, and engineering teams
-        to improve data quality, reporting accuracy, and cross-system integrations.
+        Led analysis and modernization of enterprise data workflows by documenting
+        system behavior, defining requirements, and collaborating with marketing,
+        finance, and engineering teams. Improved data quality, reporting accuracy,
+        and cross-system integrations through structured analysis and SQL-driven
+        transformations.
       bullets:
-        - Analyzed and modernized SSIS workflows supporting credit card recovery,
-          improving order retention and recovering ~$20K per month across multiple
-          countries.
-        - Designed and maintained data integration pipelines sending customer and
-          order data to Salesforce, enabling targeted email/SMS campaigns and
-          improving customer engagement.
-        - Integrated Google Analytics web data into BigQuery, enabling more accurate
-          segmentation and campaign performance analysis.
-        - Documented and maintained data warehouse ETL processes, including staging,
-          cleansing, and dimensional modeling.
-        - Developed and optimized T-SQL stored procedures and transformations
-          supporting fact and dimension tables.
-        - Performed data validation, profiling, and query optimization to ensure
-          accuracy, reliability, and efficient execution plans.
+        - Analyzed legacy credit card recovery workflows, documented system behavior,
+          and defined modernization requirements that improved retention and recovered
+          ~$20K per month across multiple countries.
+        - Documented requirements and supported development of data integration
+          pipelines sending customer and order data to Salesforce for targeted
+          email/SMS campaigns.
+        - Defined ingestion requirements and data validation rules for Google Analytics
+          → BigQuery pipelines supporting segmentation and campaign analysis.
+        - Authored functional specifications and documentation for ETL processes,
+          including staging, cleansing, and dimensional modeling.
+        - Developed acceptance criteria and validated T-SQL transformations supporting
+          fact and dimension tables.
+        - Performed root cause analysis, data profiling, and workflow troubleshooting
+          to ensure reliable execution plans and data accuracy.
 
     - company: Motorola Solutions
-      role: "Staff Engineer I - Analytics & Systems Integration"
+      role: Staff Engineer I – Analytics & Systems Integration
       location: Temecula, CA
       start: "March 2018"
       end: "May 2018"
       summary: >
         Supported analytics and data integration systems for public safety
-        communications following the acquisition of Airbus DS Communications.
-        Ensured continuity of reporting, data flows, and system behavior during
-        organizational transition.
+        communications during post-acquisition transition. Analyzed system behavior,
+        documented workflows, and ensured continuity of reporting and operational
+        data flows.
       bullets:
-        - Maintained VESTA Analytics data workflows and reporting components during
-          post-acquisition integration.
-        - Analyzed system behavior and data flows to ensure uninterrupted reporting
-          for public safety agencies.
+        - Documented VESTA Analytics workflows and reporting components to support
+          uninterrupted operations during organizational transition.
+        - Analyzed system behavior and data flows, identifying gaps and ensuring
+          consistent reporting for public safety agencies.
 
     - company: Airbus DS Communications
       role: Software Designer / Systems Analyst
@@ -144,16 +162,16 @@ resume:
       start: "February 2014"
       end: "March 2018"
       summary: >
-        Enhanced analytics and reporting platforms for public safety systems by
-        analyzing legacy components, modernizing SSIS/SSAS workflows, and improving
-        system reliability and user experience.
+        Enhanced analytics and reporting platforms for public safety systems through
+        system analysis, workflow documentation, and modernization of SSIS/SSAS
+        components.
       bullets:
-        - Upgraded and enhanced the VESTA Analytics web application, improving
-          usability and reporting clarity.
-        - Modernized SSIS Data Flow components, improving error handling and
-          operational stability.
-        - Upgraded SSAS cubes to improve reporting performance and data processing
-          efficiency.
+        - Documented UI workflows and functional requirements for VESTA Analytics,
+          improving usability and reporting clarity.
+        - Analyzed and modernized SSIS Data Flow components, improving diagnostics,
+          error handling, and operational stability.
+        - Defined requirements for SSAS cube enhancements, improving reporting
+          performance and data processing efficiency.
 
     - company: NAMM California
       role: Business Systems Analyst
@@ -161,14 +179,15 @@ resume:
       start: "August 2013"
       end: "March 2014"
       summary: >
-        Supported ICD-10 remediation by analyzing legacy applications, documenting
-        requirements, and ensuring system readiness for regulatory compliance.
+        Supported ICD-10 remediation through requirements analysis, workflow
+        documentation, and system readiness validation for regulatory compliance.
       bullets:
-        - Analyzed applications, databases, and reports to identify ICD-9 -> ICD-10
-          upgrade requirements.
-        - Documented business processes, system workflows, and functional
-          specifications for remediation.
-        - Provided production support for VB.NET applications and Crystal Reports.
+        - Analyzed applications, databases, and reports to identify ICD-9 → ICD-10
+          remediation requirements.
+        - Authored business process documentation, workflow diagrams, and functional
+          specifications.
+        - Supported UAT and production troubleshooting for VB.NET applications and
+          Crystal Reports.
 
     - company: NeuByte Technologies
       role: Principal Systems Analyst / Software Engineer (Consultant)
@@ -176,9 +195,8 @@ resume:
       start: "June 2012"
       end: "February 2014"
       summary: >
-        Delivered custom business and web solutions as a consulting entity,
-        supporting requirements analysis, system design, and data-driven
-        application development.
+        Delivered custom business and web solutions through requirements analysis,
+        system design, and workflow documentation.
       bullets:
         - Designed and developed a custom CRM system using ASP.NET, SQL Server,
           and Entity Framework.
@@ -186,153 +204,110 @@ resume:
           specifications and UI components.
 
     - company: CareFusion
-      role: "Business Systems Analyst - Data Warehousing & Analytics"
+      role: Business Systems Analyst – Data Warehousing & Analytics
       location: San Diego, CA
       start: "July 2009"
       end: "June 2012"
       summary: >
-        Supported enterprise data warehouse initiatives using Kimball
-        methodologies, Lean Six Sigma, and structured requirements analysis.
-        Contributed to modernization of reporting and analytics platforms across
-        operational and financial domains.
+        Supported enterprise data warehouse initiatives through structured requirements
+        analysis, workflow documentation, and modernization of reporting platforms.
       bullets:
-        - Developed and enhanced data warehouses and data marts using star schema
-          design.
-        - Analyzed data workflows and implemented ETL processes to improve data
-          quality and accessibility.
+        - Documented requirements and supported development of star schema data
+          warehouses and data marts.
+        - Analyzed data workflows and defined ETL requirements improving data quality
+          and accessibility.
         - Supported Operational Excellence initiatives through process analysis and
           Lean Six Sigma practices.
 
     - company: Cardinal Health
-      role: "Senior Business Systems Analyst - Data & Process Improvement"
+      role: Senior Business Systems Analyst – Data & Process Improvement
       location: San Diego, CA
       start: "June 2008"
       end: "June 2009"
       summary: >
-        Focused on data warehousing, ETL analysis, and process improvement using
-        Kimball and Lean Six Sigma methodologies. Supported modernization of
-        reporting and operational systems.
+        Led requirements analysis and process improvement initiatives supporting
+        enterprise data integration and reporting modernization.
       bullets:
-        - Analyzed and enhanced ETL workflows supporting enterprise data
-          integration.
-        - Documented system behavior, data flows, and reporting requirements.
-        - Applied Lean Six Sigma principles to improve data and operational
-          processes.
+        - Analyzed and documented ETL workflows supporting enterprise data integration.
+        - Authored functional specifications, system behavior documentation, and
+          reporting requirements.
+        - Applied Lean Six Sigma principles to improve operational processes.
 
     - company: Early Career Software Engineer / Systems Analyst
-      role: "Various Roles (Web Developer -> Senior Programmer/Analyst)"
+      role: Various Roles (Web Developer → Senior Programmer/Analyst)
       location: Southern California
       start: "August 1997"
       end: "June 2008"
       summary: >
         Progressed through increasingly responsible roles supporting enterprise
-        applications, reporting systems, and financial operations. Contributed to
-        modernization of intranet applications, CRM systems, and reporting
-        workflows across multiple organizations.
+        applications, reporting systems, and financial operations.
       bullets:
         - Supported mutual fund trading systems and internal financial applications
           at LPL Financial.
         - Developed intranet and operational applications using ASP, ASP.NET,
           SQL Server, and VB.
-        - Created reporting solutions using Crystal Reports and SQL-based data
-          extraction.
-        - Customized CRM workflows and developed support tools for enterprise
-          users.
-        - Collaborated with QA, contractors, and business stakeholders to
-          stabilize and enhance systems.
+        - Created reporting solutions using Crystal Reports and SQL-based extraction.
+        - Documented workflows and collaborated with QA and stakeholders to stabilize
+          and enhance systems.
 
   projects:
-    - name: "Portfolio Platform – GitHub Pages + Jekyll"
+    - name: Portfolio Platform – GitHub Pages + Jekyll
       summary: >
-        Designed and built a fully componentized, YAML-driven résumé and portfolio
-        system demonstrating systems analysis, documentation structure, and modern
-        web architecture.
+        Designed and built a componentized, YAML-driven résumé and portfolio system
+        demonstrating systems analysis, documentation structure, and modern web
+        architecture.
       bullets:
-        - Created reusable HTML includes and data-driven layouts for consistent rendering.
-        - Developed a structured documentation framework including Use Cases, UI flows,
-          and system diagrams.
-        - Implemented a scalable theme (NeuByte) supporting modular content and future expansion.
-        - Showcases modernization, systems thinking, and technical communication skills.
+        - Created reusable HTML includes and data-driven layouts.
+        - Developed documentation framework including Use Cases, UI flows, and system diagrams.
+        - Implemented scalable theme supporting modular content and future expansion.
 
     - name: Use Case & Documentation Framework
       summary: >
         Developed a comprehensive documentation system for modeling enterprise
-        workflows, requirements, and system behavior using standardized templates
-        and visual grammar.
+        workflows, requirements, and system behavior.
       bullets:
         - Authored detailed Use Cases, Activity Diagrams, and UI flows.
-        - Established consistent formatting, naming conventions, and diagram standards.
-        - Demonstrated ability to translate complex processes into clear, structured artifacts.
+        - Established formatting, naming conventions, and diagram standards.
+        - Demonstrated ability to translate complex processes into structured artifacts.
 
   education:
     - school: National University
       degree: MS, Organizational Leadership
       start: "July 2003"
       end: "October 2006"
-      summary: >
-        Graduate studies focused on leadership, organizational behavior,
-        and strategic management.
 
     - school: National University
       degree: BS, Computer Science
       start: "January 2000"
       end: "July 2003"
-      summary: >
-        Bachelor's program emphasizing software engineering, algorithms,
-        and systems development.
 
     - school: Coleman College
       degree: Certificate, Computer Science
       start: "June 1997"
       end: "March 1998"
-      summary: >
-        Technical certificate program covering foundational programming,
-        systems, and database concepts.
 
     - school: Colorado Institute of Art
       degree: AA, Visual Communications
       start: "September 1986"
       end: "June 1989"
-      summary: >
-        Associate program focused on design, visual communication,
-        and creative production.
 
   certifications:
-
-    - name: Microsoft Certified:Power BI Data Analyst Associate
+    - name: Power BI Data Analyst Associate
       issuer: Microsoft
       year: "2026"
-      summary: >
-        Validates the ability to prepare, model, visualize, and analyze data using
-        Power BI, including building semantic models, designing intuitive reports, and
-        applying DAX to deliver accurate, actionable business insights across enterprise
-        analytics environments.
 
     - name: GH-900 GitHub Foundations
       issuer: Microsoft
       year: "2026"
-      summary: >
-        Demonstrates proficiency with GitHub repositories, branching strategies,
-        workflow automation, and collaborative development practices essential
-        for modern systems and platform teams.
 
     - name: DP-900 Azure Data Fundamentals
       issuer: Microsoft
       year: "2026"
-      summary: >
-        Validates understanding of core data concepts, relational and non-relational
-        models, and cloud-based analytics workloads used in modern data platforms.
 
     - name: AI-900 Azure AI Fundamentals
       issuer: Microsoft
       year: "2026"
-      summary: >
-        Covers foundational concepts in AI, machine learning, and Azure AI services,
-        supporting analysis and integration of intelligent features into enterprise systems.
 
     - name: Python Object-Oriented Programming
       issuer: OpenEDG / Python Institute
       year: "2026"
-      summary: >
-        Demonstrates proficiency in object-oriented programming principles using
-        Python, enabling automation, data processing, and system integration tasks.
